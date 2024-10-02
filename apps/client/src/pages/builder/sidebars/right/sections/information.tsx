@@ -19,7 +19,7 @@ const DonateCard = () => (
       <CardDescription className="space-y-2">
         <Trans>
           <p>
-            I built Reactive Resume mostly by myself during my spare time, with a lot of help from
+            I built Refobe Resume mostly by myself during my spare time, with a lot of help from
             other great open-source contributors.
           </p>
           <p>
@@ -37,7 +37,7 @@ const DonateCard = () => (
         target="_blank"
       >
         <HandHeart size={14} weight="bold" className="mr-2" />
-        <span className="line-clamp-1">{t`Donate to Reactive Resume`}</span>
+        <span className="line-clamp-1">{t`Donate to Refobe Resume`}</span>
       </a>
     </CardFooter>
   </Card>

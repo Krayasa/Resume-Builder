@@ -7,7 +7,7 @@ export const PrivacyPolicyPage = () => (
   <main className="relative isolate bg-background">
     <Helmet prioritizeSeoTags>
       <title>
-        {t`Privacy Policy`} - {t`Reactive Resume`}
+        {t`Privacy Policy`} - {t`Refobe Resume`}
       </title>
 
       <meta
@@ -66,7 +66,7 @@ export const PrivacyPolicyPage = () => (
         <li>
           <h2 className="mb-2">Data Security</h2>
           <p>
-            Reactive Resume is committed to ensuring the security of your data. Our application and
+            Refobe Resume is committed to ensuring the security of your data. Our application and
             database are hosted on a secure server from DigitalOcean, which has both SOC 2 and SOC 3
             compliance, ensuring that your data is protected with industry-standard security
             measures.
