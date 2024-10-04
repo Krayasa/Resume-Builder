@@ -13,7 +13,7 @@ export const SettingsPage = () => (
   <>
     <Helmet>
       <title>
-        {t`Settings`} - {t`Refobe Resume`}
+        {t`Settings`} - Refobe Resume
       </title>
     </Helmet>
 

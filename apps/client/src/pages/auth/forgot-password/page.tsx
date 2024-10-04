@@ -46,7 +46,7 @@ export const ForgotPasswordPage = () => {
       <div className="space-y-8">
         <Helmet>
           <title>
-            {t`You've got mail!`} - {t`Refobe Resume`}
+            {t`You've got mail!`} - `Refobe Resume`
           </title>
         </Helmet>
 

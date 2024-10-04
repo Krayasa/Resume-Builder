@@ -40,7 +40,7 @@ export const VerifyEmailPage = () => {
     <div className="space-y-6">
       <Helmet>
         <title>
-          {t`Verify your email address`} - {t`Refobe Resume`}
+          {t`Verify your email address`} - `Refobe Resume`
         </title>
       </Helmet>
 

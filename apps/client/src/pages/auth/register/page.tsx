@@ -61,7 +61,7 @@ export const RegisterPage = () => {
     <div className="space-y-8">
       <Helmet>
         <title>
-          {t`Create a new account`} - {t`Refobe Resume`}
+          {t`Create a new account`} - `Refobe Resume`
         </title>
       </Helmet>
 

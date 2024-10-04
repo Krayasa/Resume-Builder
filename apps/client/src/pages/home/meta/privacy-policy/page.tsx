@@ -7,7 +7,7 @@ export const PrivacyPolicyPage = () => (
   <main className="relative isolate bg-background">
     <Helmet prioritizeSeoTags>
       <title>
-        {t`Privacy Policy`} - {t`Refobe Resume`}
+        {t`Privacy Policy`} - Refobe Resume
       </title>
 
       <meta

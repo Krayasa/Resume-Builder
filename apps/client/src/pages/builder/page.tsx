@@ -40,7 +40,7 @@ export const BuilderPage = () => {
     <>
       <Helmet>
         <title>
-          {title} - {t`Refobe Resume`}
+          {title} - Refobe Resume
         </title>
       </Helmet>
 

@@ -49,7 +49,7 @@ export const VerifyOtpPage = () => {
     <div className="space-y-8">
       <Helmet>
         <title>
-          {t`Two-Factor Authentication`} - {t`Refobe Resume`}
+          {t`Two-Factor Authentication`} - `Refobe Resume`
         </title>
       </Helmet>
 

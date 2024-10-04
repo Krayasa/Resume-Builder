@@ -26,13 +26,13 @@ export const Copyright = ({ className }: Props) => (
     </span>
     <span>{t`By the community, for the community.`}</span>
     <span>
-      <Trans>
+      {/* <Trans>
         A passion project by <a href="https://www.amruthpillai.com/">Amruth Pillai</a>
-      </Trans>
+      </Trans> */}
     </span>
 
     <span className="mt-4">
-      {t`Refobe Resume`} {"v" + appVersion}
+      Refobe Resume {"v" + appVersion}
     </span>
   </div>
 );

@@ -49,7 +49,7 @@ export const BackupOtpPage = () => {
     <div className="space-y-8">
       <Helmet>
         <title>
-          {t`Use your backup code`} - {t`Refobe Resume`}
+          {t`Use your backup code`} - Refobe Resume`
         </title>
       </Helmet>
 

@@ -70,7 +70,7 @@ export const PublicResumePage = () => {
     <div>
       <Helmet>
         <title>
-          {title} - {t`Refobe Resume`}
+          {title} - Refobe Resume
         </title>
       </Helmet>
 
@@ -91,7 +91,7 @@ export const PublicResumePage = () => {
           <Button size="sm" variant="ghost" className="space-x-1.5 text-xs font-normal">
             <span>{t`Built with`}</span>
             <Icon size={12} />
-            <span>{t`Refobe Resume`}</span>
+            <span>Refobe Resume</span>
           </Button>
         </Link>
       </div>
