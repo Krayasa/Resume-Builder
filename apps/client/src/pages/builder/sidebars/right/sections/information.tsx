@@ -84,7 +84,7 @@ const DocumentationCard = () => (
       <CardDescription className="space-y-2">
         <Trans>
           <p>
-            The community has spent a lot of time writing the documentation for Reactive Resume, and
+            The community has spent a lot of time writing the documentation for Refobe Resume, and
             I'm sure it will help you get started with the app.
           </p>
           <p>

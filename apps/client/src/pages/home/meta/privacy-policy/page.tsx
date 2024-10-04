@@ -30,7 +30,7 @@ export const PrivacyPolicyPage = () => (
           <h2 className="mb-2">Introduction</h2>
           <p>
             This privacy policy outlines how we collect, use, and protect the personal information
-            you provide when using our web application. By accessing or using Reactive Resume, you
+            you provide when using our web application. By accessing or using Refobe Resume, you
             agree to the collection and use of information in accordance with this policy.
           </p>
         </li>
