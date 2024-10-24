@@ -34,6 +34,7 @@ export const PictureSection = () => {
       const file = event.target.files[0];
       const response = await uploadImage(file);
       const url = response.data;
+      console.log(response, file);
 
       setValue("basics.picture.url", url);
     }
@@ -70,14 +71,14 @@ export const PictureSection = () => {
         <div className="flex items-center gap-x-2">
           <input ref={inputRef} hidden type="file" onChange={onSelectImage} />
 
-          <Input
+          {/* <Input
             id="basics.picture.url"
             placeholder="https://..."
             value={picture.url}
             onChange={(event) => {
               setValue("basics.picture.url", event.target.value);
             }}
-          />
+          /> */}
 
           {isValidUrl && (
             <Popover>
