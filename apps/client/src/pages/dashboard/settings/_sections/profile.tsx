@@ -103,7 +103,7 @@ export const ProfileSettings = () => {
                   <LocaleComboboxPopover value={field.value} onValueChange={field.onChange} />
                 </div>
                 <FormDescription>
-                  <span>
+                  {/* <span>
                     <Trans>
                       Don't see your language?{" "}
                       <a
@@ -115,7 +115,7 @@ export const ProfileSettings = () => {
                         Help translate the app.
                       </a>
                     </Trans>
-                  </span>
+                  </span> */}
                 </FormDescription>
               </FormItem>
             )}

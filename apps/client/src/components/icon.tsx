@@ -23,12 +23,17 @@ export const Icon = ({ size = 32, className }: Props) => {
   }
 
   return (
-    <img
-      src={src}
-      width={size}
-      height={size}
-      alt="Refobe Resume"
-      className={cn("rounded-sm", className)}
-    />
+    // <img
+    //   src={src}
+    //   width={size}
+    //   height={size}
+    //   alt="Refobe Resume"
+    //   className={cn("rounded-sm", className)}
+    // />
+    <div className="flex items-center">
+    <h1 className="text-4xl font-bold">
+      <span className="text-blue-500 dark:text-yellow-400">R</span><span className="text-neutral-900 dark:text-neutral-100">efobe</span>
+    </h1>
+  </div>
   );
 };

@@ -1,4 +1,4 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="512" height="512" fill="#09090B" />
   <path fill-rule="evenodd" clip-rule="evenodd"
     d="M183.603 184.722L156.74 220H183.545L197.032 201.54L209.701 220H237.938L211.008 183.874L211.014 183.866L210.81 183.608L205.927 177.44L197.895 167.292L197.882 167.31L197.669 167.007L196.926 166.068L196.98 166.025L185.367 149.472H157.52L183.603 184.722ZM200.951 163.096L214.129 179.747L237.027 149.472H210.872L200.951 163.096Z"
@@ -15,4 +15,17 @@
     stroke-miterlimit="16" />
   <line opacity="0.1" x1="60" y1="438" x2="240" y2="438" stroke="#FAFAFA" stroke-width="20"
     stroke-miterlimit="16" />
+</svg> -->
+
+<svg viewBox="0 0 40 32" aria-hidden="true" class="hidden h-8 sm:block">
+  <svg viewBox="0 0 32 32" aria-hidden="true" preserveAspectRatio="xMinYMid meet">
+    <rect clip-path="url(#:R6ara:-clip)" class="h-8 transition-all duration-300 fill-white w-8"></rect>
+    <use href="#:R6ara:-path" class="stroke-white" fill="none" stroke-width="1.5"></use>
+    <defs>
+      <path id=":R6ara:-path" d="M3.25 26v.75H7c1.305 0 2.384-.21 3.346-.627.96-.415 1.763-1.02 2.536-1.752.695-.657 1.39-1.443 2.152-2.306l.233-.263c.864-.975 1.843-2.068 3.071-3.266 1.209-1.18 2.881-1.786 4.621-1.786h5.791V5.25H25c-1.305 0-2.384.21-3.346.627-.96.415-1.763 1.02-2.536 1.751-.695.658-1.39 1.444-2.152 2.307l-.233.263c-.864.975-1.843 2.068-3.071 3.266-1.209 1.18-2.881 1.786-4.621 1.786H3.25V26Z"></path>
+      <clipPath id=":R6ara:-clip">
+        <use href="#:R6ara:-path"></use>
+      </clipPath>
+    </defs>
+  </svg>
 </svg>

@@ -67,7 +67,7 @@ export const SecuritySettings = () => {
       <div>
         <h3 className="text-2xl font-bold leading-relaxed tracking-tight">{t`Security`}</h3>
         <p className="leading-relaxed opacity-75">
-          {t`In this section, you can change your password and enable/disable two-factor authentication.`}
+          {t`In this section, you can change your password.`}
         </p>
       </div>
 
@@ -131,7 +131,7 @@ export const SecuritySettings = () => {
           </AccordionContent>
         </AccordionItem>
 
-        <AccordionItem value="two-factor">
+        {/* <AccordionItem value="two-factor">
           <AccordionTrigger>{t`Two-Factor Authentication`}</AccordionTrigger>
           <AccordionContent>
             {user?.twoFactorEnabled ? (
@@ -169,8 +169,8 @@ export const SecuritySettings = () => {
                 {t`Enable 2FA`}
               </Button>
             )}
-          </AccordionContent>
-        </AccordionItem>
+          </AccordionContent> */}
+        {/* </AccordionItem> */}
       </Accordion>
     </div>
   );
