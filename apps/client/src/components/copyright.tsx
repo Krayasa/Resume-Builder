@@ -12,9 +12,9 @@ export const Copyright = ({ className }: Props) => (
       className,
     )}
   >
-    <span>
+    {/* <span> */}
       {/* <Trans> */}
-        Licensed under MIT
+        {/* Licensed under MIT */}
         {/* <a
           target="_blank"
           rel="noopener noreferrer nofollow"
@@ -23,7 +23,7 @@ export const Copyright = ({ className }: Props) => (
           MIT */}
         {/* </a> */}
       {/* </Trans> */}
-    </span>
+    {/* </span> */}
     <span>{t`By the community, for the community.`}</span>
     <span>
       {/* <Trans>

@@ -59,7 +59,9 @@ services:
     environment:
       # -- Environment Variables --
       PORT: 3000
-      NODE_ENV: production # -- URLs --
+      NODE_ENV: production 
+      
+      # -- URLs --
       PUBLIC_URL: http://${IP_ADDRESS}
       STORAGE_URL: http://${IP_ADDRESS}:9000/default
 
